@@ -1,0 +1,121 @@
+h1{
+    text-align: center;
+    color:white;
+    background-color:#0043c9;
+    height: 150px;
+}
+.paragrap{
+    border-style: solid;
+    background-color: #FCE8F3;
+    border-color: #FCE8F3;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 15px 15px 15px 15px;
+    width: fit-content;
+    text-align: center;
+}
+body{
+    background-color: skyblue;
+}
+.kosong{
+    background-image: url(volly.jpg);
+    height: 250px;
+    width: auto;
+}
+
+
+form {
+    padding: 20px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+.form-group {
+    margin-bottom: 15px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+/* Reset beberapa gaya default */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 10px;
+    background-color:#0043c9;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footer-left h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.footer-center h3, .footer-right h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footer-left p, .footer-center p {
+    font-size: 16px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 5px 0;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+/* Gaya footer seperti sebelumnya */
+
+/* Gambar ikon sosial media */
+.social-icon {
+    width: 20px; /* Sesuaikan ukuran gambar */
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
